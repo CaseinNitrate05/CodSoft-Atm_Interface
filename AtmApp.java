@@ -18,7 +18,7 @@ public class AtmApp{
         {
             app.atmMenu();
             int ch;
-            System.out.println("\nEnter your choice:");
+            System.out.print("\nEnter your choice:");
             ch=s.nextInt();
             switch(ch)
             {
