@@ -8,9 +8,9 @@ class Atm{
     Atm(){
         Scanner s=new Scanner(System.in);
     
-        System.out.println("Enter the initial balance:");
+        System.out.print("Enter the initial balance:");
         balance = s.nextFloat();
-        System.out.println("\nEnter the minimum balance:");
+        System.out.print("\nEnter the minimum balance:");
         minBalance=s.nextFloat();
         if (balance < minBalance) {
             System.out.println("\nInitial balance cannot be less than the minimum balance. Please restart the program.");
@@ -25,7 +25,7 @@ class Atm{
 
     void withdraw(){
         Scanner s1=new Scanner(System.in);
-        System.out.println("\nEnter the amount to withdraw:");
+        System.out.print("\nEnter the amount to withdraw:");
         amount=s1.nextFloat();
         if((balance-amount)>=minBalance)
         {
@@ -44,7 +44,7 @@ class Atm{
     }
     void deposit(){
         Scanner s2=new Scanner(System.in);
-        System.out.println("\nEnter the amount to deposit:");
+        System.out.print("\nEnter the amount to deposit:");
         amount=s2.nextFloat();
         balance=balance+amount;
         System.out.println("-----------------------------------------");
