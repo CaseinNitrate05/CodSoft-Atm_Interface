@@ -1,7 +1,3 @@
-Based on your uploaded `Atm.java` and the sample execution in `Output.pdf`, here is a detailed project description tailored to your ATM application:
-
----
-
 ## 🏦 **Project Title**:
 
 **ATM Interface Simulation in Java**
@@ -83,7 +79,3 @@ The application provides the following options through a menu:
 * Learn how to interact with users using the console.
 * Handle conditional logic and arithmetic operations in real-world scenarios.
 * Get experience writing modular and maintainable code.
-
----
-
-Would you like this as a formatted **PDF or Word document** for submission? I can generate that for you too.
